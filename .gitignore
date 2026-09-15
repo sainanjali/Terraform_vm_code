@@ -1,0 +1,36 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfplan
+.terraform.lock.hcl
+
+# Terraform variables - may contain secrets
+*.tfvars
+*.tfvars.json
+
+# Azure CLI
+.azure/
+
+# Environment variables
+.env
+.env.*
+
+# VS Code
+.vscode/
+
+# IntelliJ / JetBrains
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
